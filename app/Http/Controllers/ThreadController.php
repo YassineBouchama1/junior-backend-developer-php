@@ -18,6 +18,8 @@ class ThreadController extends Controller
         $this->threadRetrievalService = $threadRetrievalService;
     }
 
+
+    // This Functon Pre Filtred We can Make User CHange FIlters By Passing Querys Throught Url
     public function getThreads(Request $request)
     {
         // Get the currently logged-in user
